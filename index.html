@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verenich Pablo's CV</title>
+ </head>
+<body>
+  <div class="fixedNavBar">
+
+
+    <header>
+
+      <div class="container_header">
+
+        <nav class="navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#example">Code</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+          
+        </nav>
+      </div>
+
+
+    </header>
+  </div>
+
+  <div class="container">
+    <main>
+
+
+      <section class="main-banner" id="home">
+        
+        
+        
+        
+        <div class="banner-content">
+          <h1 class="name">VERENICH <span>PAVEL</span></h1>
+          <p class="developer">NOVICE DEVELOPER</p>
+          <div class="logo_socials">
+            
+            
+            <div class="logo_socials_block">
+              <ul>
+                <li><a href="tel:+375295640768"><img class="logo_socials_block_img" src="images/phone.jpg" alt="phone number"></a>
+                </li>
+                <li><a href="mailto:verenicpavel32@gmail.com"><img class="logo_socials_block_img" src="images/gmail.png" alt="gmail"></a>
+                </li>
+                <li><a href="https://github.com/Pablov1999"><img class="logo_socials_block_img" src="images/github.png" alt="github link"></a>
+                </li>
+                <li><a href="telegram : @pablo19991975"><img class="logo_socials_block_img" src="images/tg.jpg" alt="tg link"></a>
+                </li>
+             </ul>  
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="banner_main_img">
+          <figure>
+            <a href="https://www.youtube.com/watch?v=6vYnas6q3Sg" target="_blank"><img class="avatar" src="images/me_pretty.jpg" alt="My photo"/></a>
+            <figcaption>Hi, I am 22 years old customs declarant trying to find myself in IT sphere.</figcaption>
+      
+          </figure>
+        </div>
+     
+     
+     
+      </section>
+    
+
+
+      <div id="skills"></div>
+      <section class="section">
+        <div class="section-heading">
+          <h2><a href="#skills">My skills</a></h2>
+          <div class="section-heading-line"></div>
+       </div>
+       <div class="skills">
+        <ul>
+           <li>HTML5</li>
+           <li>CSS3</li>
+           <li>JavaScript</li>
+           <li>Git&Github</li>
+           <li>Relational DB (MySQL, MS Access)</li>
+           <li>SQL</li>
+           <li>Visual studio code</li>
+        </ul>
+      </div>
+      </section>
+
+      <div id="example"></div>
+      <section class="section">
+         <div class="section-heading">
+            <h2><a href="#example">Code example</a></h2>
+            <div class="section-heading-line"></div>
+         </div>
+
+         <div class="code">
+          <pre> 
+             <code>
+               function createPhoneNumber(numbers){
+                  var format = "(xxx) xxx-xxxx";
+                  
+                  for(var i = 0; i &lt; numbers.length; i++)
+                  {
+                    format = format.replace('x', numbers[i]);
+                  }
+                  
+                  return format;
+                }
+             </code>
+             <code>
+             SELECT
+             people.id,
+             people.name,
+             count (sales.id) as sale_count,
+             rank ()
+             OVER (
+               ORDER BY count(sales.id)
+             ) sale_rank
+             from people
+             join 
+             sales
+             ON people.id = people_id
+             group by people.id
+            </code>
+         </pre>
+       </div>
+    </section>
+
+
+    <div id="projects"></div>
+    <section class="section">
+       <div class="section-heading">
+          <h2><a href="#projects">My projects</a></h2>
+          <div class="section-heading-line"></div>
+       </div>
+       <div class="projects">
+         <div class="projects_elem">
+            <div class="projects_elem_info">
+               <h4>Landing portfolio page</h4>
+               <p>landing page made according to the figma layout, technologies used: adaptability, using js to switch dark theme and photos, burger menu, page translation into two languages, image caching, rippel effect for buttons</p>
+            </div>
+            <div class="projects_elem_img">
+               <a href="https://rolling-scopes-school.github.io/pablov1999-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="images/portfolio.png" alt="landing page"></a>
+            </div>
+         </div>
+      </div>
+       <div class="projects">
+          <div class="projects_elem">
+             <div class="projects_elem_info">
+                <h4>dino game</h4>
+                <p>Easy JS game. Used technologies: HTML,CSS,JS</p>
+             </div>
+             <div class="projects_elem_img">
+                <a href="https://pablov1999.github.io/dino/" target="_blank"><img src="images/dino.png" alt="Dino Game"></a>
+             </div>
+          </div>
+       </div>
+    
+    </section>
+
+
+
+    <div id="experience"></div>
+    <section class="section">
+       <div class="section-heading">
+          <h3><a href="#experience">Experience</a></h3>
+          <div class="section-heading-line"></div>
+       </div>
+       <div class="experience">
+          <h4>I haven't worked as a programmer or a tester </h4>
+          <p>but I believe it should be. good knowledge of spoken English, and I have been self-taught for a long time
+          </p>
+       </div>
+    </section>
+
+
+
+    <div id="education"></div>
+    <section class="section">
+       <div class="section-heading">
+          <h2><a href="#education">Education</a></h2>
+          <div class="section-heading-line"></div>
+       </div>
+       <div class="education">
+          <h4>Belorusian National Technical University (2016-2020)</h4>
+          <p>Bachelor degree in Customs Affairs.</p>
+       </div>
+    </section>
+
+
+
+    <div id="languages"></div>
+    <section class="section">
+       <div class="section-heading">
+          <h2><a href="#languages">Languages</a></h2>
+          <div class="section-heading-line"></div>
+       </div>
+       <div class="languages">
+          <ul>
+             <li>Belorussian (native)</li>
+             <li>Russian (native)</li>
+             <li>English (advanced)</li>
+             <li>Polish (beginner)</li>
+          </ul>
+       </div>
+    </section>
+
+  
+    
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+       <div class="author">
+           Verenich Pablo 2022
+       </div>
+       <div class="footer-links">
+          <ul>
+             <li>
+                <a href="https://rs.school/js/" target="_blank">
+                   <img src="images/rsschool.png" alt="RS School" class="footer-img">
+                </a>
+             </li>
+             <li>
+                <a href="https://github.com/Pablov1999" target="_blank">
+                   <img src="images/github.png" alt="GitHub" class="footer-img">
+                </a>
+             </li>
+          </ul>
+       </div>
+    </div>
+ </footer>
+</body>
+</html>
