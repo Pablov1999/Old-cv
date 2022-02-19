@@ -1,2 +1,2 @@
 # CV
-https://pablov1999.github.io/CV/
+https://pablov1999.github.io/OLD-CV/
