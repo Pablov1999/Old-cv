@@ -1,2 +1,2 @@
 # CV
-https://pablov1999.github.io/rsschool-cv/
+https://pablov1999.github.io/Old-cv/
